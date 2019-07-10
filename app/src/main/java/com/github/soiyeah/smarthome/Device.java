@@ -25,6 +25,7 @@ public class Device
 
     }
 
+    //test comment
 
     public DbHelper getDbHelper() {
         return dbHelper;
