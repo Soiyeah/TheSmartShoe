@@ -31,40 +31,40 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        s1 = (Switch) findViewById(R.id.switch1);
-        s2 = (Switch) findViewById(R.id.switch2);
-
-        switch1 = new Device("/switch1");
-        switch2 = new Device("/switch2");
-
-        s1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-
-                if(isChecked)
-                {
-                    switch1.turnOn();
-                }
-                else
-                {
-                    switch1.turnOff();
-                }
-            }
-        });
-
-        s2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-
-                if(isChecked)
-                {
-                    switch2.turnOn();
-                }
-                else
-                {
-                    switch2.turnOff();
-                }
-            }
-        });
-
+//        s1 = (Switch) findViewById(R.id.switch1);
+//        s2 = (Switch) findViewById(R.id.switch2);
+//
+//        switch1 = new Device("/switch1");
+//        switch2 = new Device("/switch2");
+//
+//        s1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//
+//                if(isChecked)
+//                {
+//                    switch1.turnOn();
+//                }
+//                else
+//                {
+//                    switch1.turnOff();
+//                }
+//            }
+//        });
+//
+//        s2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//
+//                if(isChecked)
+//                {
+//                    switch2.turnOn();
+//                }
+//                else
+//                {
+//                    switch2.turnOff();
+//                }
+//            }
+//        });
+//
     }
 
 
