@@ -43,9 +43,9 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             case 0:
                 return "Home";
             case 1:
-                return "Schedule";
+                return "Maps";
             case 2:
-                return "Notifications";
+                return "Log";
         }
         return null;
     }

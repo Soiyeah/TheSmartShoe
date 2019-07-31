@@ -18,16 +18,16 @@ public class Tab2 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.tab2, container, false);
+        View rootView = inflater.inflate(R.layout.activity_maps, container, false);
 
-        openMaps = (Button) rootView.findViewById(R.id.btn_open_maps);
-
-        openMaps.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openMapActivity();
-            }
-        });
+//        openMaps = (Button) rootView.findViewById(R.id.btn_open_maps);
+//
+//        openMaps.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                openMapActivity();
+//            }
+//        });
 
         return rootView;
     }
