@@ -36,58 +36,58 @@ public class Tab1 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.activity_main, container, false);
-
-        s1 = (Switch) rootView.findViewById(R.id.switch1);
-        s2 = (Switch) rootView.findViewById(R.id.switch2);
-
-        switch1 = new Device("/switch1");
-        switch2 = new Device("/switch2");
-
-        switch1.getDbHelper().getDbRef().addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot)
-            {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-
-                status = dataSnapshot.getValue(String.class);
-                Log.d("file", " This is tab---Value is: " + status);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                // Failed to read value
-                Log.w("file", "Failed to read value.", error.toException());
-            }
-        });
-
-        s1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-
-                if(isChecked)
-                {
-                    switch1.turnOn();
-                }
-                else
-                {
-                    switch1.turnOff();
-                }
-            }
-        });
-
-        s2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-
-                if(isChecked)
-                {
-                    switch2.turnOn();
-                }
-                else
-                {
-                    switch2.turnOff();
-                }
-            }
-        });
+//
+//        s1 = (Switch) rootView.findViewById(R.id.switch1);
+//        s2 = (Switch) rootView.findViewById(R.id.switch2);
+//
+//        switch1 = new Device("/switch1");
+//        switch2 = new Device("/switch2");
+//
+//        switch1.getDbHelper().getDbRef().addListenerForSingleValueEvent(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot dataSnapshot)
+//            {
+//                // This method is called once with the initial value and again
+//                // whenever data at this location is updated.
+//
+//                status = dataSnapshot.getValue(String.class);
+//                Log.d("file", " This is tab---Value is: " + status);
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError error) {
+//                // Failed to read value
+//                Log.w("file", "Failed to read value.", error.toException());
+//            }
+//        });
+//
+//        s1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//
+//                if(isChecked)
+//                {
+//                    switch1.turnOn();
+//                }
+//                else
+//                {
+//                    switch1.turnOff();
+//                }
+//            }
+//        });
+//
+//        s2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//
+//                if(isChecked)
+//                {
+//                    switch2.turnOn();
+//                }
+//                else
+//                {
+//                    switch2.turnOff();
+//                }
+//            }
+//        });
 
         return rootView;
     }
