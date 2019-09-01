@@ -1,4 +1,4 @@
-package com.github.soiyeah.smarthome;
+package com.github.soiyeah.smartshoe;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,52 +1,45 @@
 {
   "project_info": {
-    "project_number": "714012483003",
-    "firebase_url": "https://smart-home-f7bee.firebaseio.com",
-    "project_id": "smart-home-f7bee",
-    "storage_bucket": "smart-home-f7bee.appspot.com"
+    "project_number": "829673724672",
+    "firebase_url": "https://smartshoesliit.firebaseio.com",
+    "project_id": "smartshoesliit",
+    "storage_bucket": "smartshoesliit.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:714012483003:android:a1c6cff5be5564c5",
+        "mobilesdk_app_id": "1:829673724672:android:c7e3d10390650ee7",
         "android_client_info": {
-          "package_name": "com.github.soiyeah.smarthome"
+          "package_name": "com.github.soiyeah.smartshoe"
         }
       },
       "oauth_client": [
         {
-          "client_id": "714012483003-3cmos80pb51frop2bebck4uq142f5ho9.apps.googleusercontent.com",
+          "client_id": "829673724672-8bahs2h37pj12k3t560v4lipnk8m71gb.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.github.soiyeah.smarthome",
+            "package_name": "com.github.soiyeah.smartshoe",
             "certificate_hash": "2a96df51388de118f0290b48db112d6a3ab07685"
           }
         },
         {
-          "client_id": "714012483003-88g24v42hgftaa74bmf77bmlj0lvd9kp.apps.googleusercontent.com",
+          "client_id": "829673724672-mua5svhbva23fg4ehf6cd8c6o6o6c9oe.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAWCyBEJF-qZqcWf4dkVdijddh2Ghid-LE"
+          "current_key": "AIzaSyCBS-nDnTq2SttGZg9FdL9APv_IjHlP1yY"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "714012483003-88g24v42hgftaa74bmf77bmlj0lvd9kp.apps.googleusercontent.com",
+              "client_id": "829673724672-mua5svhbva23fg4ehf6cd8c6o6o6c9oe.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

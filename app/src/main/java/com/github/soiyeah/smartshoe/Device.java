@@ -1,9 +1,7 @@
-package com.github.soiyeah.smarthome;
+package com.github.soiyeah.smartshoe;
 
 import android.os.AsyncTask;
 import android.util.Log;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

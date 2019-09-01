@@ -1,16 +1,8 @@
-package com.github.soiyeah.smarthome;
+package com.github.soiyeah.smartshoe;
 
 
-import android.os.AsyncTask;
-import android.util.Log;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 public class DbHelper
 {
@@ -24,7 +16,7 @@ public class DbHelper
     {
          database = FirebaseDatabase.getInstance();
          myRef = database.getReference();
-         this.dbRef = myRef.child("devices").child(ref);
+         this.dbRef = myRef.child("SmartShoe").child(ref);
     }
 
 

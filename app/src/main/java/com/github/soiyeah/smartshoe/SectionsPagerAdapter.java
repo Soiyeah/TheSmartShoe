@@ -1,4 +1,4 @@
-package com.github.soiyeah.smarthome;
+package com.github.soiyeah.smartshoe;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

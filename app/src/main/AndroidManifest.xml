@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.soiyeah.smarthome">
+    package="com.github.soiyeah.smartshoe">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.github.soiyeah.smartshoe.MainActivity"
             android:theme="@style/AppTheme"></activity>
 
         <meta-data
@@ -25,7 +25,7 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".TabbedActivity"
+            android:name="com.github.soiyeah.smartshoe.TabbedActivity"
             android:label="@string/title_activity_tabbed"
             android:theme="@style/AppTheme">
             <intent-filter>
@@ -42,12 +42,15 @@
              sign the APK for publishing.
              You can define the keys for the debug and release targets in src/debug/ and src/release/. 
         -->
+
+        <!--android:value="@string/google_maps_key"-->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyCY6OXfJwSBnY4mJeS6rgIkM2dgqmohWWE" />
+
 
         <activity
-            android:name=".MapsActivity"
+            android:name="com.github.soiyeah.smartshoe.MapsActivity"
             android:label="@string/title_activity_maps"></activity>
     </application>
 

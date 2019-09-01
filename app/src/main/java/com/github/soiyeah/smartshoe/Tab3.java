@@ -1,4 +1,4 @@
-package com.github.soiyeah.smarthome;
+package com.github.soiyeah.smartshoe;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
